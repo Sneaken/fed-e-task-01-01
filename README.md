@@ -17,6 +17,7 @@
    A. Snabbdom 库是一个高效的虚拟 DOM 库，Vue.js 的虚拟 DOM 借鉴了 Snabbdom 库。
 
    B. 使用 h() 函数创建 VNode 对象，描述真实 DOM 结构。
+
    C. Snabbdom 库本身可以处理 DOM 的属性、事件、样式等操作。 X => 核心库并不能，但是可以模块来处理这些操作，并且官方提供了六个模块。
 
    D. 使用 patch(oldVnode, null) 可以清空页面元素 X => patch(oldVnode, '!')
